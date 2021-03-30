@@ -1,0 +1,91 @@
+body{font-family: 'Catamaran', sans-serif;
+     background-color: #E8D7F1;
+     color: #0E273C;
+     margin: 0;}
+
+     
+nav {background-color: #A167A5;
+  padding: 17px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;}
+
+nav a { color: aliceblue;
+        margin-left: 20px;
+        text-decoration: none;
+        } 
+ 
+nav a:hover{color:  #0E273C;}        
+        
+header {background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+        color: white;
+        position: relative;
+         }
+header h1 {font-size: 50px;}
+
+header h2 { font-size:45px;}
+ 
+header::after{
+    content: "";        
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.4;
+}         
+
+header * {position: relative;
+          z-index: 1;}
+
+section {text-align: center;
+background-color: #0E273C;}   
+
+section * {z-index: 1;
+           color: #A167A5;}
+
+.project-container {display : flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 20px;}           
+
+.projects {max-width: 600px;
+          text-decoration: none;}           
+
+.projects img { max-width: 80%;}
+
+.projects p {font-size: 25px;}
+
+.social-links {display: flex;
+               list-style-type: none;
+               justify-content: center;
+               padding: 0;
+               margin: 0;
+               padding-bottom: 30;}
+
+.social-links a {font-size: 30px;
+                 margin :0px 7px 0px 7px;}               
+
+
+li a:hover{color: #0E273C;}
+
+footer { background-color: #A167A5;
+         color: aliceblue;
+         padding: 15px;
+         text-align: center;
+         text-decoration: none;}
+
+@media{}         
